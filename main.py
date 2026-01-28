@@ -6,57 +6,26 @@ grade_level = document.getElementById("grade-level").value
 section = document.getElementById("section").value
 
 def check_requirements(e):
-    if grade_level == "g7" & section == "e" & registration == "yes1" & medical_clearance == "yes2": # 7-Emerald
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g8" & section == "e" & registration == "yes1" & medical_clearance == "yes2": # 8-Emerald
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g9" & section == "e" & registration == "yes1" & medical_clearance == "yes2": # 9-Emerald
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g10" & section == "e" & registration == "yes1" & medical_clearance == "yes2": # 10-Emerald
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
 
-    elif grade_level == "g7" & section == "r" & registration == "yes1" & medical_clearance == "yes2": # 7-Ruby
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
+    # Emerald
+    if section == "e" & registration == "yes1" & medical_clearance == "yes2":
         display(f"You are part of the", target='output')
-    elif grade_level == "g8" & section == "r" & registration == "yes1" & medical_clearance == "yes2": # 8-Ruby
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g9" & section == "r" & registration == "yes1" & medical_clearance == "yes2": # 9-Ruby
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g10" & section == "r" & registration == "yes1" & medical_clearance == "yes2": # 10-Ruby
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
+        document.getElementById("team_photo").innerHTML = "<img src='green_hornets.jpeg' height='#' width='#'>"
 
-    elif grade_level == "g7" & section == "s" & registration == "yes1" & medical_clearance == "yes2": # 7-Sapphire
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
+    # Ruby
+    elif section == "r" & registration == "yes1" & medical_clearance == "yes2":
         display(f"You are part of the", target='output')
-    elif grade_level == "g8" & section == "s" & registration == "yes1" & medical_clearance == "yes2": # 8-Sapphire
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g9" & section == "s" & registration == "yes1" & medical_clearance == "yes2": # 9-Sapphire
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g10" & section == "s" & registration == "yes1" & medical_clearance == "yes2": # 10-Sapphire
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
+        document.getElementById("team_photo").innerHTML = "<img src='red_bulldogs.jpeg' height='#' width='#'>"
 
-    elif grade_level == "g7" & section == "t" & registration == "yes1" & medical_clearance == "yes2": # 7-Topaz
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
+    # Sapphire
+    elif section == "s" & registration == "yes1" & medical_clearance == "yes2":
         display(f"You are part of the", target='output')
-    elif grade_level == "g8" & section == "t" & registration == "yes1" & medical_clearance == "yes2": # 8-Topaz
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
+        document.getElementById("team_photo").innerHTML = "<img src='blue_bears.jpeg' height='#' width='#'>"
+    
+    # Topaz
+    elif section == "t" & registration == "yes1" & medical_clearance == "yes2":
         display(f"You are part of the", target='output')
-    elif grade_level == "g9" & section == "t" & registration == "yes1" & medical_clearance == "yes2": # 9-Topaz
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-    elif grade_level == "g10" & section == "t" & registration == "yes1" & medical_clearance == "yes2": # 10-Topaz
-        document.getElementById("team_photo").innerHTML = "<img src='#' height='#' width='#'>"
-        display(f"You are part of the", target='output')
-        
+        document.getElementById("team_photo").innerHTML = "<img src='yellow_tigers.jpeg' height='#' width='#'>"
+
     else:
         document.getElementById("team_photo").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
