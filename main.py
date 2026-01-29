@@ -12,18 +12,19 @@ def check_requirements(e):
 
     if (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "e" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
-        document.getElementById("team_photo").innerHTML = "<img src='green_hornets.jpeg' height='35px' width='35px'>"
+        document.getElementById("team_photo").innerHTML = "<img src='green_hornets.jpeg' height='20px' width='20px'>"
     elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "r" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
-        document.getElementById("team_photo").innerHTML = "<img src='red_bulldogs.jpeg' height='35px' width='35px'>"
+        document.getElementById("team_photo").innerHTML = "<img src='red_bulldogs.jpeg' height='20px' width='20px'>"
     elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "s" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
-        document.getElementById("team_photo").innerHTML = "<img src='blue_bears.jpg' height='35px' width='35px'>"
+        document.getElementById("team_photo").innerHTML = "<img src='blue_bears.jpg' height='20px' width='20px'>"
     elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "t" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
-        document.getElementById("team_photo").innerHTML = "<img src='yellow_tigers.jpeg' height='35px' width='35px'>"
+        document.getElementById("team_photo").innerHTML = "<img src='yellow_tigers.jpeg' height='20px' width='20px'>"
     else:
         document.getElementById("team_photo").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
+
 
 
 
