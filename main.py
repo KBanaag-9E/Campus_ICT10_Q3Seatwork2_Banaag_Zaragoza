@@ -18,9 +18,10 @@ def check_requirements(e):
         document.getElementById("team_photo").innerHTML = "<img src='red_bulldogs.jpeg'>"
     elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "s" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
-        document.getElementById("team_photo").innerHTML = "<img src='blue_bears.jpeg'>"
+        document.getElementById("team_photo").innerHTML = "<img src='blue_bears.jpg'>"
     elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "t" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
         document.getElementById("team_photo").innerHTML = "<img src='yellow_tigers.jpeg'>"
     else:
         document.getElementById("team_photo").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
+
