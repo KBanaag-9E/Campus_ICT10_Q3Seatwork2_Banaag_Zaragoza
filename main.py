@@ -10,25 +10,17 @@ def check_requirements(e):
     document.getElementById("output").innerHTML = ' '
     document.getElementById("team_photo").innerHTML = ' '
 
-    # Emerald
-    if grade_level == "g7" | grade_level == "g8" | grade_level == "g9" |  grade_level == "g10" & section == "e" & registration == "yes" & medical_clearance == "yes":
+    if (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "e" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
         document.getElementById("team_photo").innerHTML = "<img src='green_hornets.jpeg'>"
-
-    # Ruby
-    elif grade_level == "g7" | grade_level == "g8" | grade_level == "g9" |  grade_level == "g10" & section == "r" & registration == "yes" & medical_clearance == "yes":
+    elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "r" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
         document.getElementById("team_photo").innerHTML = "<img src='red_bulldogs.jpeg'>"
-
-    # Sapphire
-    elif grade_level == "g7" | grade_level == "g8" | grade_level == "g9" |  grade_level == "g10" & section == "s" & registration == "yes" & medical_clearance == "yes":
+    elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "s" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
         document.getElementById("team_photo").innerHTML = "<img src='blue_bears.jpeg'>"
-    
-    # Topaz
-    elif grade_level == "g7" | grade_level == "g8" | grade_level == "g9" |  grade_level == "g10" & section == "t" & registration == "yes" & medical_clearance == "yes":
+    elif (grade_level == "g7" or grade_level == "g8" or grade_level == "g9" or  grade_level == "g10") and section == "t" and registration == "yes" and medical_clearance == "yes":
         display(f"You are part of the", target='output')
         document.getElementById("team_photo").innerHTML = "<img src='yellow_tigers.jpeg'>"
-
     else:
         document.getElementById("team_photo").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
