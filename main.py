@@ -25,3 +25,4 @@ def check_requirements(e):
     else:
         document.getElementById("team_photo").innerHTML = "You are not qualified to participate in the OBMC Intramurals."
 
+
